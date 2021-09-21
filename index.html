@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,600&family=Roboto:ital,wght@0,500;1,700&family=Rubik+Beastly&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>portfolioG&V</title>
+</head>
+<body>
+<header>
+    <h1 class="intro">G&V front-end developer</h1>
+    <div class="nav-bar">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contacts">Contacts</a>
+    </div>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav class="hamburger" role="navigation">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+              -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#contacts"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About me</h2>
+    <div class="photo">
+        <span class="photo_tooltip">* it's not my photo *</span>
+        <img src="img/person.jpeg" alt="Please, respect women rights" height="1024" width="1024"/>
+    </div>
+    <p class="about_me">Hello World!</p>
+    <p class="about_me">I'm beginning front end development in WebStorm at first time.
+        It's new experience for me. Thank You for possibilities.
+        Earlier I created some cards in Canva for greetings my family. See my hobby's projects in Portfolio.</p>
+    <p class="about_me"><strong>Skills:</strong> HTML, CSS, JS, Canva, Figma.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+    <a href="#">
+        <img src="img/canva_project.jpg" alt="happy Father's day" height="500" width="500"/>
+       <p class="present"> Greetings card for my father</p>
+    </a>
+        <button class="open-window" type="button">how it's done</button>
+   <a href="#">
+        <img src="img/sister_hb.jpg" alt="happy birthday dear sister" height="500" width="500"/>
+        <p class="present">Greetings card for my sister </p>
+       </a>
+    </div>
+</section>
+
+<section id="contacts">
+
+    <h2>My contacts</h2>
+
+        <a class="contact_info" href="tel:+380664758835">+380664758835</a>
+
+    <a href="https://github.com/SvitlG">
+        <img src="https://github.githubassets.com/apple-touch-icon-57x57.png" alt="welcome to github">
+    </a>
+
+        <a class="contact_info" href="mailto:g_svitlana@ukr.net">g_svitlana@ukr.net</a>
+
+</section>
+
+<footer>
+    <a href="https://github.com/SvitlG">
+        <img src="img/github.svg" width="55" height="55">
+    </a>
+  
+<p class="text_center">G&V, 2021</p>
+</footer>
+
+<div class="window">
+    <h3>Flashcards</h3>
+    <p>You can start the project at the following link:
+    <a href="https://www.canva.com">flashcards</a>
+    </p>
+    <p>I did this project when I was trying to create some cards for art competition</p>
+<button class="close" type="button">Close</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
